@@ -1,8 +1,12 @@
+Fullstackopen
+Exercise 4
+Part 0
 
-sequence diagram
+
+  sequence diagram
     participant browser
     participant server
-
+    
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/notse/new_note
     activate server
     server-->>browser:  302 Found\nLocation: /exampleapp/notes

@@ -3,7 +3,7 @@ Exercise 4
 Part 0
 
 
-  sequence diagram
+    sequence diagram
     participant browser
     participant server
     

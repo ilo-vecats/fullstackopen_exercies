@@ -1,10 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-const StatLine = ({text,value})=>(
-   <p><strong>{text}</strong> {value}</p>
 
-)
 
 
 const App = () => {
@@ -31,9 +28,16 @@ const App = () => {
       <button onClick={handleneutralclick}>neutral</button>
       <button onClick={handlebadclick}>bad</button>
       <h2>statistics</h2>
-      <StatLine text="good" value={good} />
-      <StatLine text="neutral" value={neutral}/>
-      <StatLine text="bad" value={bad}/>
+      <p>
+         good {good}
+      </p>
+      <p>
+         neutral {neutral}
+      </p>
+      <p>
+         bad {bad}
+      </p>
+   
 
     </div>
   )

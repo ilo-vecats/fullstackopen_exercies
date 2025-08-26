@@ -4,7 +4,7 @@ const Header=({name})=>{
     <h1>{name}</h1>
   )
 }
-const Part=({key,name,exercises})=>{
+const Part=({name,exercises})=>{
   return(
     <p>{name} {exercises}</p>
   )

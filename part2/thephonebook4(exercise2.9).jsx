@@ -65,10 +65,10 @@ const App = () => {
       <h2>Phonebook</h2>
       <div>
         filter shown with
-        <input onChange={handleFilter}></input>
+        <input  value={filter} onChange={handleFilter}></input>
       </div>
       <h3> add a new</h3>
-      <form value={filter} onSubmit={addName}>
+      <form onSubmit={addName}>
         <div>
           <div>name: <input value={newName} onChange={handleNameChange}/></div>
            <div>
